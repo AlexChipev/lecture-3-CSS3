@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Reset Start */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1d8ee4;
+	font-family: inherit;
+}
+
+:focus {
+	outline: none;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+}
+/* Custom Reset Start */
+
+/* Page Styles */
+
+.header {
+  height: 50px;
+  background: #ebebeb;
+	margin-bottom: 20px;
+
+}
+
+.header .logo,
+.header ul {
+    float: left;
+}
+
+.header .logo {
+	color: #000;
+	margin-right: 40px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.header ul li a {
+	line-height: 50px;
+}
+
+.header .wrapper {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .search {
+	float: right;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.header .search input {
+	width: 200px;
+	display: inline-block;
+	height: 100%;
+	border: 1px solid #c3c3c3;
+	box-sizing: border-box;
+	margin-right: 15px;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+.header .btn-search {
+	color: #fff;
+	height: 100%;
+	display: inline-block;
+	background: #1d8ee4;
+	vertical-align: top;
+	padding: 0 15px;
+	cursor: pointer;
+	line-height: 38px;
+}
+.main{
+  width: 1170px;
+  margin: 0 auto;
+  border-bottom: 1px solid #c3c3c3;
+}
+.page-top{
+  margin-bottom: 30px;
+}
+.left-box{
+width: 550px;
+display: inline-block;
+}
+.left-box h2{
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.left-box h3{
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+.left-box p{
+  font-family: inherit;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+ .left-box .button {
+   display: block;
+   float: left;
+   background: #1d8ee4;
+   cursor: pointer;
+   width: 69px;
+   color: #fff;
+   font-size: 12px;
+   font-family: inherit;
+   line-height: 10px;
+   padding: 15px;
+   margin-right: 10px;
+}
+.left-box .button-2 {
+  display: block;
+  float: left;
+  background: #1d8ee4;
+  cursor: pointer;
+  width: 90px;
+  color: #fff;
+  font-size: 12px;
+  font-family: inherit;
+  line-height: 10px;
+  padding: 15px;
+  margin-right: 10px;
+}
+.right-box{
+  float: right;
+  width: 20px;
+  display: inline-block;
+}
+.box{
+  width:255px;
+  height: 239px;
+  background: #cccccc;
+  border: 1px solid #cccccc;
+  margin: auto;
+  float: right;
+  display: inline-block;
+  margin-right: 346px;
+}
+.box p{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #999999;
+}
+
+ .fill-box{
+width: 255px;
+height: 239px;
+display: inline-block;
+float: right;
+padding-right: 50px;
+border: 1px solid #cccccc;
+background: #ebebeb;
+font-family: inherit;
+font-size: 12px;
+
+}
+.fill-box span{
+  display: block;
+  font-weight: bold;
+  background: #1d8ee4;
+  cursor: pointer;
+  width: 86px;
+  color: #fff;
+  line-height: 6px;
+  padding: 13px;
+  margin-left: 10px;
+}
+.fill-box input{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  width: 283px;
+  height: 40px;
+}
+.fill-box p{
+  font-weight: bold;
+   margin-left: 10px;
+   margin-top: 20px;
+   padding-bottom: 2px;
+
+}
