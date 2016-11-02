@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Custom Reset Start */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1d8ee4;
+    font-family: inherit;
+}
+
+:focus {
+    outline: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+.main-top {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.heading {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 50px;
+    margin-bottom: 17px;
+}
+
+.heading h2 {
+    display: block;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.heading p {
+    display: block;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+
+.more {
+    box-sizing: border-box;
+    display: inline-flex;
+    line-height: 15px;
+    background: #1d8ee4;
+    color: #fff;
+    padding: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.less {
+    box-sizing: border-box;
+    display: inline-flex;
+    line-height: 15px;
+    color: #1d8ee4;
+    border: 1px solid #1d8ee4;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.main-center {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 118px;
+}
+
+.text-upper {
+    display: inline-block;
+    width: 560px;
+}
+
+.text-upper h3 {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    padding-bottom: 17px;
+}
+
+.image {
+    border: 1px solid #c3c3c3;
+    padding: 3px;
+    float: right;
+}
+
+.main-low {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.text-lower {
+    display: inline-block;
+    padding-bottom: 25px;
+}
+
+.text-lower li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 377px;
+    margin-right: 10px;
+
+}
+
+.text-lower span {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.text-lower p {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.agenda {
+    border-top: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.agenda ul {
+    padding-left: 70px;
+}
+
+.agenda li {
+    display: inline-block;
+    color: #1d8ee4;
+    margin-right: 150px;
+}
+
+.agenda span {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.footer {
+    width: 1170px;
+    margin: 0 auto;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.bottom {
+    display: inline-block;
+}
+
+.bottom ul {
+    padding-left: 365px;
+    margin-top: 25px;
+}
+
+.bottom span {
+    padding-left: 365px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bottom li {
+    display: inline-flex;
+    border: 1px solid #c3c3c3;
+    padding: 3px;
+    margin-right: 15px;
+}

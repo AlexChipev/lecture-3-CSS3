@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Custom Reset Start */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1d8ee4;
+    font-family: inherit;
+}
+
+:focus {
+    outline: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Custom Reset Start */
+
+
+/* Page Styles */
+
+
+.header {
+    height: 50px;
+    background: #ebebeb;
+    margin-bottom: 20px;
+}
+
+.header .logo, .header ul {
+    float: left;
+}
+
+.header .logo {
+    color: #000;
+    margin-right: 40px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header ul li a {
+    line-height: 50px;
+}
+
+.header .wrapper {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .search {
+    float: right;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.header .search input {
+    width: 200px;
+    display: inline-block;
+    height: 100%;
+    border: 1px solid #c3c3c3;
+    box-sizing: border-box;
+    margin-right: 15px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.header .btn-search {
+    color: #fff;
+    height: 100%;
+    display: inline-block;
+    background: #1d8ee4;
+    vertical-align: top;
+    padding: 0 15px;
+    cursor: pointer;
+    line-height: 38px;
+}
+.main-top {
+    margin-bottom: 35px;
+}
+.main-top{
+  box-sizing: border-box;
+  width: 1170px;
+  margin: 0 auto;
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+}
+.head-1 {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 585px;
+}
+.head-1 span{
+  display: inline-block;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.head-1 p{
+  font-size: 15px;
+  font-family: inherit;
+  color: #8c8c8c;
+  padding-bottom: 10px;
+
+}
+.buttons-up-left {
+  display: inline-block;
+}
+.buttons-up-left ul{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 585px;
+}
+.buttons-up-left li{
+  display: inline-block;
+  padding-right: 20px;
+
+}
+.buttons-up-left span{
+  display: inline-block;
+  line-height: 24px;
+  width: 130px;
+  background: #1d8ee4;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 6px;
+  cursor:pointer;
+}
+.head-2{
+  display: inline-block;
+  float:right;
+  box-sizing: border-box;
+  width: 565px;
+  margin-left: 20px;
+}
+ .box-1 {
+  display: inline-block;
+  box-sizing: border-box;
+  width:250px;
+  height:191px;
+  background: #bfbfbf;
+  font-family: inherit;
+  text-align: center;
+  padding-top: 81px;
+  color: #808080;
+}
+.box-2{
+  float: right;
+  display: inline-block;
+  box-sizing: border-box;
+  width:250px;
+  height:191px;
+  background: #ebebeb;
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 12px;
+  font-family: inherit;
+}
+
+.box-2 label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.box-2 input{
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 220px;
+  text-align: left;
+}
+.botton-right {
+  display: block;
+  line-height: 35px;
+  width: 102px;
+  background: #1d8ee4;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor:pointer;
+
+}
+.main{
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 25px;
+}
+.image-allign span{
+  display: inline-block;
+  float: left;
+  }
+
+.image-allign{
+  box-sizing: border-box;
+  display: flex;
+  display: inline-flex;
+  width: 370px;
+  height: 515px;
+  border: 1px solid #c3c3c3;
+  padding-top: 10px;
+
+}
+.image-allign div{
+display: inline-block;
+box-sizing: border-box;
+height: 300px;
+width: 300px;
+background: #bfbfbf;
+margin-top: 50px;
+
+}
+.main, .footer {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main .footer {
+    margin-top: 25px;
+}
+
+.agenda ul li {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.agenda ul {
+    float: right;
+    padding-right: 860px;
+}
+
+.agenda li {
+    padding-right: 20px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo2 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.main .footer {
+    padding-bottom: 20px;
+}
